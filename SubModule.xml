@@ -15,7 +15,7 @@
         </SubModules>
 	<Xmls>
 		<XmlNode>
-			<XmlName id="Items" path="spitems_exp"/>
+			<XmlName id="Items" path="ModuleData/spitems_exp"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
@@ -23,7 +23,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>                
-			<XmlName id="SPCultures" path="spcultures_exp"/>
+			<XmlName id="SPCultures" path="ModuleData/spcultures_exp"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
@@ -31,7 +31,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="NPCCharacters" path="bandits_exp"/>
+			<XmlName id="NPCCharacters" path="ModuleData/bandits_exp"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
@@ -39,7 +39,7 @@
 			</IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
-			<XmlName id="partyTemplates" path="partyTemplates_exp"/>
+			<XmlName id="partyTemplates" path="ModuleData/partyTemplates_exp"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
