@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="looter" default_group="Infantry" name="{=urUwa4bf}Looter" level="6" occupation="Bandit" culture="Culture.looters">
+    <face>
+      <!--face_key value="000001a0000010000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000f80000" max_value="001fff7fda0038d1ffffffffffffffffffffffffffffffffffffffffffffffff000ff00dffffffff000000000000000000000000000000000000000000007183" /-->
+      <BodyProperties version="4" age="69.27" weight="0.5035" build="0.5657" key="00000000000000000000000000080000000000000000000000000000000000000008800808000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.4547" build="0.5657" key="001CFC0FDA0038D1FFFFFFFFFFF7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000870060FFFFFFF000000000000000000000000000000000000000000C87182" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="30" />
+      <skill id="Bow" value="20" />
+      <skill id="OneHanded" value="40" />
+      <skill id="Polearm" value="30" />
+      <skill id="Riding" value="0" />
+      <skill id="Throwing" value="40" />
+      <skill id="TwoHanded" value="20" />
+    </skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.peasant_2haxe_1_t1" />
+      <equipment slot="Item2" id="Item.throwing_stone" />
+      <equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_hammer_1_t1" />
+      <equipment slot="Item2" id="Item.throwing_stone" />
+      <equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_hatchet_1_t1" />
+      <equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.seax" />
+      <equipment slot="Item1" id="Item.throwing_stone" />
+      <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+      <equipment slot="Gloves" id="Item.armwraps" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_hammer_2_t1" />
+      <equipment slot="Body" id="Item.vlandia_bandit_c" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+      <equipment slot="Head" id="Item.wrapped_headcloth" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_hammer_2_t1" />
+      <equipment slot="Item1" id="Item.throwing_stone" />
+      <equipment slot="Body" id="Item.torn_bandit_clothes" />
+      <equipment slot="Leg" id="Item.leather_shoes" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_pickaxe_1_t1" />
+      <equipment slot="Body" id="Item.bandit_gambeson" />
+      <equipment slot="Leg" id="Item.leather_shoes" />
+      <equipment slot="Head" id="Item.pilgrim_hood" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
+      <equipment slot="Item2" id="Item.throwing_stone" />
+      <equipment slot="Body" id="Item.bandit_envelope_dress_v1" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+      <equipment slot="Head" id="Item.pilgrim_hood" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.falchion_sword_t2" />
+      <equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.vlandia_mace_1_t2" />
+      <equipment slot="Item1" id="Item.throwing_stone" />
+      <equipment slot="Body" id="Item.bandit_leather_water_flask" />
+      <equipment slot="Head" id="Item.pilgrim_hood" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+      <equipment slot="Gloves" id="Item.armwraps" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_pitchfork_2_t1" />
+      <equipment slot="Body" id="Item.vlandia_bandit_c" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+      <equipment slot="Head" id="Item.wrapped_headcloth" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.small_spurred_axe_t2" />
+      <equipment slot="Body" id="Item.torn_bandit_clothes" />
+      <equipment slot="Leg" id="Item.leather_shoes" />
+      <equipment slot="Head" id="Item.wrapped_headcloth" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_hammer_1_t1" />
+      <equipment slot="Item1" id="Item.throwing_stone" />
+      <equipment slot="Body" id="Item.bandit_gambeson" />
+      <equipment slot="Leg" id="Item.leather_shoes" />
+      <equipment slot="Head" id="Item.wrapped_headcloth" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.pillager" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="pillager" default_group="Cavalry" name="{=urUwa4bf}Bounty Hunter" level="11" occupation="Bandit" culture="Culture.looters">
+    <face>
+      <!--face_key value="000001a0000010000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000f80000" max_value="001fff7fda0038d1ffffffffffffffffffffffffffffffffffffffffffffffff000ff00dffffffff000000000000000000000000000000000000000000007183" /-->
+      <BodyProperties version="4" age="69.27" weight="0.5035" build="0.5657" key="00000000000000000000000000080000000000000000000000000000000000000008800808000000000000000000000000000000000000000000000000F00000" />
+      <BodyPropertiesMax version="4" age="48.18" weight="0.4547" build="0.5657" key="001CFC0FDA0038D1FFFFFFFFFFF7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000870060FFFFFFF000000000000000000000000000000000000000000C87182" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="45" />
+      <skill id="Bow" value="70" />
+      <skill id="OneHanded" value="50" />
+      <skill id="Polearm" value="45" />
+      <skill id="Riding" value="130" />
+      <skill id="Throwing" value="45" />
+      <skill id="TwoHanded" value="40" />
+    </skills>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.crossbow_bountyhunter" />
+      <equipment slot="Item1" id="Item.bolt_sedativeShot" />
+      <equipment slot="Item2" id="Item.bolt_bountyhunter" />
+      <equipment slot="Body" id="Item.battania_woodland_chainmail" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+      <equipment slot="Gloves" id="Item.guarded_armwraps" />
+      <equipment slot="Horse" id="Item.vlandia_horse_tournament" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.crossbow_bountyhunter" />
+      <equipment slot="Item1" id="Item.bolt_sedativeShot" />
+      <equipment slot="Item2" id="Item.bone_crusher_mace_t3" />
+      <equipment slot="Item3" id="Item.old_kite_shield" />  
+      <equipment slot="Body" id="Item.buckled_wildsman_armor" />
+      <equipment slot="Leg" id="Item.wrapped_shoes" />
+      <equipment slot="Gloves" id="Item.guarded_armwraps" />
+      <equipment slot="Horse" id="Item.vlandia_horse_tournament" />
+    </equipmentSet>
+    
+  </NPCCharacter>
+</NPCCharacters>

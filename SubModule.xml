@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "ZBandit Expanded"/>
+	<Id value = "ZBanditExpanded"/>
+	<Version value = "e1.0.5"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<DependedModules>
+		 <DependedModule Id="Native" />
+                 <DependedModule Id="SandBoxCore" />
+                 <DependedModule Id="Sandbox" />
+                 <DependedModule Id="StoryMode" />
+	</DependedModules>
+	<SubModules>
+        </SubModules>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="Items" path="spitems_exp"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="SPCultures" path="spcultures_exp"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="bandits_exp"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="partyTemplates" path="partyTemplates_exp"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+</Module>

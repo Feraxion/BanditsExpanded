@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <!-- #region Used Crossbow -->
+    <!-- #region Tier 2 -->
+    <Item
+            id="crossbow_bountyhunter"
+            name="{=K1UFTirG}Bounty Scout Crossbow"
+            body_name="bo_cross_bow_heavy"
+            mesh="crossbow_a"
+            culture="Culture.neutral_culture"
+            weight="1.0"
+            difficulty="0"
+            Type="Crossbow"
+            AmmoOffset="0.0, 0.02131, 0.24650"
+            item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+            holster_position_shift="0.02,0,-0.4">
+        <ItemComponent>
+            <Weapon weapon_class="Crossbow"
+                    ammo_class="Bolt"
+                    missile_speed="77"
+                    accuracy="95"
+                    thrust_damage="77"
+                    thrust_speed="92"
+                    speed_rating="62"
+                    weapon_length="95"
+                    ammo_limit="1"
+                    thrust_damage_type="Blunt"
+                    item_usage="crossbow_fast"
+                    physics_material="wood_weapon"
+                    center_of_mass="0,0,0.4">
+                <WeaponFlags RangedWeapon="true"
+                             HasString="true"
+                             CantReloadOnHorseback="true"
+                             NotUsableWithOneHand="true"
+                             TwoHandIdleOnMount="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags UseTeamColor="true" />
+        <!--flag name="AmmoOffset" value="0.0, 0.02131, -0.15" /-->
+    </Item>
+    <!-- #endregion -->
+    <!-- #region Missile -->
+<Item id="blunt_bolt"
+      name="{=4jmcs2Xm}Blunt Bolts"
+      body_name="bo_capsule_arrow"
+      holster_body_name="bo_axe_short"
+      flying_mesh="bolt_bl_flying"
+      mesh="bolt_bl_a"
+      holster_mesh="bolt_bl_a_quiver"
+      holster_mesh_with_weapon="bolt_bl_a_quiver"
+      weight="0.05"
+      appearance="1"
+      Type="Bolts"
+      item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+<ItemComponent>
+    <Weapon weapon_class="Bolt"
+            stack_amount="24"
+            thrust_speed="0"
+            thrust_damage_type="Blunt"
+            speed_rating="0"
+            missile_speed="10"
+            weapon_length="47"
+            item_usage=""
+            rotation="180, 0, 0"
+            physics_material="missile"
+            sticking_position="0,-0.47,0"
+            sticking_rotation="90,0,0"
+            center_of_mass="0,0,-0.1">
+        <WeaponFlags AttachAmmoToVisual="true"
+                     Consumable="true"
+                     AmmoSticksWhenShot="false"
+                     AmmoBreaksOnBounceBack="false" />
+    </Weapon>
+</ItemComponent>
+<Flags ForceAttachOffHandPrimaryItemBone="true" />
+</Item>
+    <Item id="bolt_sedativeShot"
+          name="{=JbTCDDb0}Sedative Bolt"
+          body_name="bo_capsule_arrow"
+          holster_body_name="bo_axe_short"
+          mesh="bolt_bl_e"
+          holster_mesh="bolt_bl_e_quiver"
+          holster_mesh_with_weapon="bolt_bl_e_quiver"
+          flying_mesh="bolt_bl_flying"
+          weight="0.05"
+          appearance="1"
+          Type="Bolts"
+          item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+        <ItemComponent>
+            <Weapon weapon_class="Bolt"
+                    stack_amount="1"
+                    thrust_speed="0"
+                    thrust_damage="120"
+                    thrust_damage_type="Blunt"
+                    speed_rating="0"
+                    missile_speed="10"
+                    weapon_length="37"
+                    item_usage=""
+                    rotation="180, 0, 0"
+                    physics_material="missile"
+                    sticking_position="0,-0.37,0"
+                    sticking_rotation="90,0,0"
+                    center_of_mass="0,0,-0.1">
+                <WeaponFlags AttachAmmoToVisual="true"
+                             Consumable="true"
+                             AmmoSticksWhenShot="true"
+                             AmmoBreaksOnBounceBack="true" />
+            </Weapon>
+        </ItemComponent>
+        <Flags ForceAttachOffHandPrimaryItemBone="true" />
+    </Item>
+    <!-- #endregion -->
+</Items>

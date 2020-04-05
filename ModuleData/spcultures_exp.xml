@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+  
+  <Culture id="looters"
+           name="{=1sbJQR4H}Looters"
+           elite_basic_troop="NPCCharacter.pillager"
+           basic_troop="NPCCharacter.looter"
+           is_bandit="true"
+           can_have_settlement="false"
+           encounter_background_mesh="encounter_looter" />
+		   
+   <Culture id="bountyhunters"
+           name="{=1sbJQR4H}Bounty Hunters"
+           elite_basic_troop="NPCCharacter.pillager"
+           basic_troop="NPCCharacter.pillager"
+           is_bandit="true"
+           can_have_settlement="false"
+           encounter_background_mesh="encounter_looter" />	   
+  
+</SPCultures>
